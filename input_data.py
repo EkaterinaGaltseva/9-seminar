@@ -1,5 +1,5 @@
-player1 = input('Введите имя первого игрока: ')
-player2 = input('Введите имя второго игрока: ')
+player1 = input('Введите имя первого игрока. Он будет играть за Х: ')
+player2 = input('Введите имя второго игрока. Он будет играть за 0: ')
 def input_data(player_token, tab):
     valid = False
     while not valid:
